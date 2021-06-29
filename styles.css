@@ -1,0 +1,205 @@
+
+ /* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");  */
+* {
+    /* border-style: dashed; */
+}
+html {
+    max-width: 1000px;
+    margin: auto;
+    font-family:'Open Sans', sans-serif;
+    background-color: #fff;
+}
+body {
+/* background: rgb(76,102,122);
+background: linear-gradient(90deg, rgba(76,102,122,1) 0%, rgba(202,200,221,1) 68%); */
+background: rgb(76,102,122);
+background: linear-gradient(90deg, rgba(76,102,122,1) 0%, rgba(224,224,226,1) 68%);
+}
+#header {
+    height: 40px;
+}
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    border-radius: 20px;
+    /* background-image: url("images/ocean_retreat_biz_card_background_1.jpg"); */
+    /* color: white;  */
+    height: 250px;
+}
+#intro {
+    /* background-color: rgb(233, 239, 243); */
+    border-radius: 20px;
+    color: black;
+    width: 60%;
+    height: 200px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    }
+#photo {
+    max-width: 70%;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+} 
+#test {
+    border-radius: 20px;
+    background-image: url("images/back2.png");
+    width: 35%;
+}
+header nav {
+    float: right;
+    padding: 20px;
+}
+a {
+    padding: 10px;
+    border-right: 2px solid white;
+    color: #141331;
+    font-weight: bold;
+} 
+nav a:hover {
+    color: white;
+  }
+img {
+    border-radius: 20px;
+}
+h1, h2, p {
+     color:rgb(3, 13, 20);
+} 
+#projecttext {
+   text-align: justify; 
+   padding-left: 10px;
+   padding-right: 10px;
+   color: rgb(15, 29, 39);
+}
+#projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+.project {
+    width: calc(100% / 4 - 10px);
+    border-radius: 20px;
+    /* background-color: hsl(0, 0%, 100%); */
+    margin-bottom: 10px;
+    }
+
+#contact {
+    width: 100%;
+}    
+form {
+    width: 100%;
+}
+.form-item {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.form-item label {
+    flex-basis: 80px;
+    font-size: 18px;
+}
+.form-item input,
+.form-item textarea {
+    border: 2px solid #FDDC5C;
+}
+.form-item input,
+.form-item textarea,
+.form-item button {
+    border: 2px solid #32235c;
+    background-color: #FFF;
+    font-size: 12px;
+    border-radius: 10px;
+    max-width: 50%;
+}
+#button {
+    margin-top: 10px;
+    margin-left: 70px;
+    border-radius: 10px;
+    width: 50%;
+    height: 30px;
+}
+.form-item button:hover {
+    background-color: #963f9ed2;
+    color: #FFF;
+}
+#mail, #name {
+    height: 40px;
+}
+#message {
+    display: flex;
+}
+footer {
+    text-align: center;
+    background-image: url("images/back2.png");
+    height: 30px;
+    color: cornsilk;
+}
+/* mobile view */
+@media (max-width: 600px) {
+    * {
+        display: block;
+    }
+    header nav {
+        /* float: right; */
+        /* padding: 20px; */
+    }
+    a {
+        display: inline-block;
+    } 
+    #test {
+        width: 100%;
+        height: 50%;
+    }
+    #main {
+        display: block;
+        height: 450px;
+    }
+    #photo {
+        width: 33%;
+        margin-left: 10%;
+        /* margin-top: 40px; */
+        padding-top: 20px; 
+    }
+    #intro  {
+       width: 90%;
+       height: 40%; 
+       /* margin-left: 5%; */
+       /* background-color: rgb(248, 248, 248); */
+        }   
+    h1 {
+        /* padding-left: 10px; */
+        /* padding-top: 10px; */
+    }  
+    p {
+        text-align: justify;
+        /* padding-left: 10px;
+        padding-right: 10px; */
+    }
+        .project {
+            width: 100%;
+        }
+    form {
+        width: 100%;
+    }
+    }
+
+/* ipad view */
+@media (min-width: 601px) and (max-width: 900px) {
+    main {
+        width: 100%;
+    }
+    
+    #photo {
+        width: 60%;
+    }
+    #intro {
+        width: 50%;
+    }
+    .project {
+        width: calc(100% / 2 - 10px);
+}
+}
