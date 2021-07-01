@@ -1,6 +1,0 @@
-uigradients.com/poncho
-codepen - pure css
-
-https://pngtree.com/freebackground/geometric-vector-pattern-for-web-page-background_1424010.html
-
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");

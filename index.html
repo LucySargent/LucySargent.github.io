@@ -4,53 +4,64 @@
         <meta charset="utf-8" />
         <meta
             name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <title>Portfolio</title>
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
         <header id="header">
             <nav>
-                <a href="index.html">Home</a>
-                <a href="https://www.google.com.au/">About</a>
-                <a href="https://www.google.com.au/">Contact</a>
+                <a class="navborder" href="index.html">Home</a>
+                <a class="navborder" href="about.html">About</a>
+                <a class="navborder" href="contact.html">Contact</a>
+                <!-- <img class="icons" src="images/github.svg">
+                <img class="icons" src="images/linkedin.svg">
+                <img class="icons" src="images/github.svg"> -->
             </nav>
+            <div id="lucy">
+                <img class="icons" src="images/github.svg">
+                <img class="icons" src="images/linkedin.svg">
+                <img class="icons" src="images/github.svg">
+            </div>
+
         </header>
     
         <main id="main">
-            <div id="test">
-               <img id="photo" src="images/head.jpg">
-            </div>
             <div id="intro">
-                <h1>Hi! I'm Lucy...</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h1 id="h1intro">Lucy Sargent</h1>
+                <p id="pintro">I am a web developer in training...</p> 
+                    <p id="pintro">Your task is to create a portfolio site to showcase your work. Creators often have some kind of portfolio to show off what they can do, as developers, we are no exception.</p>
+                    <p id="pintro">Your portfolio site should represent you, so while we have listed the requirements for it below, it should still have your own personal style all over it. Your task is to create a portfolio site to showcase your work.</p>
             </div>
+            <div id="intro2">
+                <img id="photo2" src="images/maralyn.jpg">
+            </div>
+<!-- <a href="about.html"><button id="aboutbutton">More</button> -->
         </main>
+
             <section id="projects">
-            <div class="project">
-                <h2 id="projecttext"s>Project 1</h1>
-                    <p id="projecttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="box">
+               <img id="photo" src="images\head.jpg">
             </div>
-            <div class="project">
-                <h2 id="projecttext">Project 2</h1>
-                    <p id="projecttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="box">
+                <h2 id="h2projects">Projects</h1>
+                <p id="projecttext">Project A</p>
+                <p id="projecttext">Description</p>
+                <br>
+                <p id="projecttext">Project B</p>
+                <p id="projecttext">Description</p>
             </div>
-            <div class="project">
-                <h2 id="projecttext">Project 3</h1>
-                    <p id="projecttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="box">
+                <h2 id="h2projects">Skills</h1>
+                    <!-- <ul>
+                        <li id="projecttextlist">HTML / CSS</li>
+                        <li id="projecttextlist">Python</li>
+                        <li id="projecttextlist">React</li>
+                    </ul> -->
+                <p id="projecttextlist">HTML / CSS</p>
+                <p id="projecttextlist">Python</p>
+                <p id="projecttextlist">React</p>
             </div>
-            <div class="project">
-                <p><a href="contact.html">
-                    <img src="images/message.png" width="25%">
-                    </a></p>
-                <p><a href="contact.html">
-                    <img src="images/message.png" width="25%">
-                    </a></p>
-                    <p><a href="contact.html">
-                        <img src="images/message.png" width="25%">
-                        </a></p>
-                    </div>
             </section>
             <footer>
                 <p>footer text</p>
