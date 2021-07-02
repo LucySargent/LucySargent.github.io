@@ -11,7 +11,7 @@ body {
     background-color: rgb(23, 22, 29);
 }
 #header {
-    height: 100px;
+    height: 85px;
     font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: flex-end;
@@ -62,7 +62,7 @@ nav {
 } 
 #photo2 {
    height: 350px;
-   width: 250px;
+   width: 270px;
 } 
 .icons {
     border-color: tomato;
@@ -124,6 +124,16 @@ p {
     width: calc(100% / 3 - 10px);
     margin-bottom: 30px;
     border-right: 2px solid white; 
+}
+table {
+    /* height: 250px;
+    width: 100%; */
+}
+th, td {
+    /* border: 1px solid white; */
+}
+#tableimg {
+    width: 80%;
 }
 
 /* CONTACT PAGE */
