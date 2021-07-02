@@ -22,18 +22,17 @@ body {
 nav a:hover {
     color: rgb(255, 98, 71);
 }
-#lucy, nav {
+nav {
     display: inline-block;
     /* padding-top: 20px; */
 }
 nav {
     padding-top: 30px;
 }
-#lucy {
+#topright {
     width: 200px;
     padding-top: 15px;
 }
-
 #main {
     display: flex;
     flex-wrap: wrap;
@@ -46,11 +45,11 @@ nav {
 #intro {
     width: 45%;
     background-color: tomato;
+    height: 500px;
 }
 #intro2 {
     width: 30%;
 }
-
 #photo {
    margin-left: 27px;
    margin-top: 10%;
@@ -86,19 +85,32 @@ p {
     color: white;
     margin-left: 30px;
 }
-#pintro {
-    font-size: 22px;
+#pintro1 {
+    font-size: 28px;
+    color: rgb(23, 22, 29);
+    margin-left: 30px;
+    margin-right: 20px;  
+    text-align: justify; 
+    font-weight: bold;
+}
+#pintro2 {
+    font-size: 28px;
     color: rgb(23, 22, 29);
     margin-left: 30px;
     margin-right: 20px;  
     text-align: justify; 
 }
-#h2projects {
-    text-align: center; 
-    color: white;
-    font-family: 'Open Sans', sans-serif;
+#pintro3 {
+    font-size: 26px;
+    color: rgb(23, 22, 29);
+    float: right;
 }
-
+#h2projects {
+    /* text-align: center;  */
+    color: white;
+    font-size: 50px;
+    font-weight: lighter;
+}
 #projects {
     display: flex;
     justify-content: space-around;
@@ -110,21 +122,35 @@ p {
    text-align: justify; 
    padding-left: 25px;
    padding-right: 30px;
-   font-weight: normal;
-   font-size: 18px;
-   font-family: 'Open Sans', sans-serif;
+   font-weight: light;
+   font-size: 26px;
+   font-family: 'Caveat', cursive;
 }
 #projecttextlist {
-    text-align: center; 
-    font-family: 'Open Sans', sans-serif;
+    /* text-align: center;  */
+    font-family: 'Caveat', cursive;
     color: white;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 26px;
  }
 .box {
-    width: calc(100% / 3 - 10px);
+    width: calc(100% / 3 - 20px);
     margin-bottom: 30px;
     border-right: 2px solid white; 
 }
+#repobutton {
+    border-radius: 20px;
+    height: 40px;
+    border-style: solid;
+    font-weight: light;
+    font-size: 26px;
+    font-family: 'Caveat', cursive;
+    color: white;
+    background-color: rgb(23, 22, 29);
+}
+#repobutton:hover {
+    background-color: tomato;
+}   
 table {
     /* height: 250px;
     width: 100%; */
@@ -134,6 +160,7 @@ th, td {
 }
 #tableimg {
     width: 80%;
+    background-color: white;
 }
 
 /* CONTACT PAGE */
@@ -221,11 +248,11 @@ footer {
 
 /* mobile view */
 @media (max-width: 600px) {
-#header {
-    height: 50%;
-}
+/* #header {
+    height: 80%;
+} */
 #main {
-    height: 550px;
+    height: 90%;
 }
 #photo {
     width: 75%;
@@ -233,20 +260,34 @@ footer {
 #intro  {
     width: 80%;
     height: 90%; 
-}   
+}  
 #projects {
     display: block;
     width: 100%;
-    margin-top: 120px;
+    /* margin-top: 120px; */
     height: 100%;
 }
 .box {
     display: block;
     width: 100%;
     border-bottom: 2px solid white; 
+    /* border-top: 2px solid white; */
+    /* margin-bottom: 40px; */
+    margin-left: 40px;
 }
 #photo {
     width: 30%;
+}
+#tableimg {
+    width: 60%;
+}
+table {
+    width: 80%;
+    margin-left: 25px;  
+    margin-bottom: 40px;  
+}
+td{
+    padding-left: 30px;
 }
 form {
     width: 100%;
@@ -267,23 +308,41 @@ form {
 
 /* ipad view */
 @media (min-width: 601px) and (max-width: 900px) {
-    #main {
+#main {
         width: 100%;
         height: 660px;
-    }
-    #photo {
+}
+#photo {
         width: 60%;
-    }
-    #intro {
-        width: 50%;
-    }
-    #projects {
-        /* display: block; */
-        width: 100%;
-        margin-top: 120px;
+}
+#intro {
+        width: 55%;
         height: 100%;
-        }
+}
+#h1intro {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#pintro1 {
+    padding-left: 20px;
+}
+#pintro2 {
+    padding-left: 20px;
+}
+#topright {
+    /* width: 300px; */
+} 
+.box {
+    margin-left: 10px;
+    padding: 20px;
+    /* border-bottom: none;  */
+} 
+#projects {
+        width: 100%;
+        height: 100%;
+}
+
+}
     /* .project {
         width: calc(100% / 2 - 10px); */
-}
-}
+
