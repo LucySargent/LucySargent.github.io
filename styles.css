@@ -208,11 +208,8 @@ form {
 .form-item {
     padding: 5px;
 }
-.test {
-    height: 200px;
-    /* border-color: tomato;
-    border-style: dotted; */
-    
+.submit {
+    height: 0px;    
 }
 .form-item label {
     font-size: 36px;
@@ -241,8 +238,9 @@ form {
 }
 #message { 
     height: 200px;
-    resize: vertical;
+    /* resize: vertical; */
     font-size: 14px;
+    margin-top: 10px;
 }
 #button {
     border-radius: 10px;
@@ -259,6 +257,10 @@ form {
     background-color: tomato;
 }
 
+#end {
+    height: 300px;
+}
+
 footer {
     text-align: center;
     height: 60px;
@@ -266,16 +268,33 @@ footer {
 }
 
 /* about */
+#contactsection {
+    background-color: rgb(23, 22, 29);
+}
 .about {
-    background-color: tomato;
-    height: 400px;
+    /* background-color: white; */
+    height: 750px;
+    /* width: 350px; */
+    padding: 50px;
+    /* border: tomato;
+    border-style: dashed; */
+}
+#abouttext {
+    font-size: 28px;
+    color: white
+    margin-left: 30px;
+    margin-right: 30px;  
+    text-align: justify; 
 }
 
 /* mobile view */
 @media (max-width: 600px) {
-/* #header {
-    height: 80%;
-} */
+#header {
+    justify-content: center;
+}
+#topright {
+    width: 30%;
+}
 #main {
     height: 90%;
 }
@@ -283,11 +302,8 @@ footer {
     width: 75%;
 }   
 nav, #topright {
-    width: 45%;
+    /* width: 45%; */
 } 
-.navborder {
-    padding: 3px; 
-}
 #intro  {
     width: 80%;
     height: 90%; 
@@ -312,7 +328,7 @@ nav, #topright {
     width: 30%;
 }
 #tableimg {
-    width: 60%;
+    width: 100%;
 }
 table {
     width: 80%;
@@ -330,12 +346,26 @@ form {
 .form-item button {
     width: 96%;
 }
+.test {
+    height: 100px;
+    display: block;
+}
 #labelname2 {
     padding-left: 20px;
 }
 #button {
-    margin-top: 60px;
-    margin-left: 150px;
+    width: 35%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#name, #mail {
+    height: 95%;
+}
+#message {
+    height: 100px;
+}
+#end {
+    height: 50%;
 }
 }
 
