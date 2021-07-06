@@ -252,7 +252,7 @@ form {
     border-color: white;
     font-family: 'Caveat', cursive;
 }
-.test button:hover {
+#button:hover {
     background-color: tomato;
 }
 
@@ -359,9 +359,11 @@ form {
 }
 #name, #mail {
     height: 95%;
+    font-size: 32px;
 }
 #message {
     height: 100px;
+    font-size: 32px;
 }
 #end {
     height: 50%;
