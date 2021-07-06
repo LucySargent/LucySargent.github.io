@@ -161,7 +161,7 @@ p {
 table {
     /* height: 250px;
     width: 100%; */
-    margin-right: 15px;
+    margin-right: 10px;
 }
 th, td {
     border: 1px solid white;
@@ -177,10 +177,9 @@ th, td {
 }
 
 /* CONTACT PAGE */
-/* #body {
-    /* background-color: rgb(23, 22, 29); */
+ #body {
     height: 100%; 
-} */
+}
 
 #white {
     color: white;
